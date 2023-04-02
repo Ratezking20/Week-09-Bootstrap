@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- linked the CSS bootstrap components to page so that elements can receive style -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <!-- Add a css style to the div elements with properties targeting the border -->
+    <style>
+        div{
+            border-style: solid;
+            border-color: blue;
+        }
+    </style>
+
+</head>
+<!-- Created a container class for the body which center-aligns all elements in it-->
+<body class="container">
+    
+    <div class="alert alert-primary"> <!-- displays a blue alert -->
+        Primary
+    </div>
+
+    <div class="alert alert-secondary"><!-- displays a gray alert -->
+        Secondary
+    </div>
+
+    <div class="alert alert-success"><!-- displays a green alert -->
+        Success!!!
+    </div>
+
+    <div class="alert alert-danger"><!-- displays a red alert -->
+        DANGER!!!!!!!
+    </div>
+
+    <div class="alert alert-warning"><!-- displays a yellow alert -->
+        This is a warning.
+    </div>
+
+    <!-- Created buttons that are styled using bootstrap -->
+    <button class="btn btn-primary">Primary Button</button> 
+    <button class="btn btn-secondary">Secondary Button</button>
+    <button class="btn btn-success">Success Button</button>
+    <button class="btn btn-danger">Danger Button</button>
+    <button class="btn btn-warning">Warning Button</button>
+    <button class="btn btn-info">Info Button</button>
+    <button class="btn btn-light">Light Button</button>
+    <button class="btn btn-dark">Dark Button</button>
+    <button type="button" class="btn btn-link">Link Button</button>
+    <br><br>
+
+    <!-- Created a button that has a badge inside of it that displays whatever's in the span-->
+    <button class="btn btn-info">
+        Notifications <span class="badge badge-secondary">96</span>
+    </button>
+    <br>
+
+    <!-- Created a heading that has a badge inside of it-->
+    <h3>
+        Invite Friends <span class="badge badge-primary">NEW</span>
+    </h3>
+
+    <!-- Created a table with a table-class. Also has a hover-->
+    <table class="table table-dark table-hover">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Michael</td>
+            <td>m.jordan@nbalegends.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kobe</td>
+            <td>k.bryant@nbalegends.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Lebron</td>
+            <td>l.james@nbalegends.com</td>
+        </tr> 
+    </table>
+
+    <!-- Added jquery and bootstrap bundle -->
+   <script src="node_modules/jquery/dist/jquery.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

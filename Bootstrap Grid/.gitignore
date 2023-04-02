@@ -1,0 +1,7 @@
+# List whatever files you want to ignore below So that when you push files to GitHub repository these will be ignored.
+
+node_modules/bootstrap/dist/css/bootstrap.css
+node_modules/jquery/dist/jquery.js
+node_modules/bootstrap/dist/js/bootstrap.bundle.js
+
+

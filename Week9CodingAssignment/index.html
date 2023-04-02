@@ -1,0 +1,187 @@
+<!-- For this project and all remaining projects , you should also have a file called .gitignore 
+in your project directory. In that file you should have a line that says "/node_modules" without the quotes. 
+This tells git to ignore all your node module dependencies when it pushes code to your repo.
+
+You should also have a file called package.json in your project directory. Please make sure 
+this file gets pushed to your Github repo with all your other project files. This file is a manifest or list 
+of all dependencies that your project requires to function properly. 
+
+With this file someone can clone your repo and then run "npm install" in the project directory and 
+they will automatically download all the node module dependencies needed.
+
+***In particular the graders will be cloning your repo (using git clone https://github.com/YourUserName/YourRepoName) and 
+then installing all the dependencies (using npm install). They can then test your project locally on their machine. 
+It is recommended you run these commands at least for this project to make sure you can clone and run your project locally. 
+If you have trouble doing that, please ask for help before submitting it.   
+
+•	Create a new website using HTML and Bootstrap. The website must include the following:
+•	At least 2 pages.
+•	A Bootstrap navbar, table, and form.
+•	Bootstrap grid used throughout to format elements
+•	Elements should stack vertically when the window is small
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeShop.com: Home</title>
+
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        
+        <a class="navbar-brand" href="index.html"><p style="font-size: larger;">SHOE SHOP<span style="float: right; font-size:small; vertical-align: text-bottom;">.com</span></a>
+        <form class="form-inline" style="padding-left: 15px;">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        
+    </nav>
+    <a style="margin: 10px" href="index.html">Home</a>
+    <a href="signUp.html">Sign Up </a> <br><br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;"class="col-sm-4">
+               <p><b>FREE</b> SHIPPING EVERY DAY</p>
+            </div>
+            <div class="col-sm">
+                <i>The One-Stop Shop for Stylish Shoes from Top Fashion Brands</i>
+            </div><br><br>
+
+        
+            ini
+                <div class="row">
+                    <div class="a-2 col-sm-4">                    
+                        <a  href="1-TrueBlue.html">
+                        <img class="img-fluid" src="AJ-1-True Blue-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 1: True Blue</p>
+                    </div>
+
+                    <div class="a-2 col-sm-4">
+                        <a href="13-Playoffs.html">
+                        <img class="img-fluid" src="AJ-13-Playoffs-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 13: Playoffs</p>
+                    </div>
+                    
+                    <div class="a-2 col-sm-4" >
+                        <a class="a-2" href="3-WhiteCement.html">
+                        <img class="img-fluid" src="AJ-3-White Cement-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 3: White Cement</p>
+                    </div>
+                    
+                    <div class="a-2 col-sm-4">
+                        <a href="4-CraftPhotonDust.html">
+                        <img class="img-fluid" src="AJ-4-Craft Photon Dust-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 4: Craft Photon Dust</p>
+                    </div>
+
+                    <div class="a-2 col-sm-4">
+                        <a href="13-FrenchBlue.html">
+                        <img class="img-fluid" src="AJ-13-French Blue-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 13: French Blue</p>
+                    </div>
+
+                    <div class="a-2 col-sm-4">
+                        <a href="4-MidnightNavy.html">
+                        <img class="img-fluid" src="AJ-4-Midnight Navy-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 4: Midnight Navy</p>
+                    </div>
+
+                    <div class="a-2 col-sm-4">
+                        <a href="5-Aqua.html">
+                        <img class="img-fluid" src="AJ-5-Aqua-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 5: Aqua</p>
+                    </div>
+
+                    <div class="a-2 col-sm-4">
+                        <a href="4-UNC.html">
+                        <img class="img-fluid" src="AJ-4-UNC-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 4: UNC</p>
+                    </div>
+
+                    <div class="a-2 col-sm-4">
+                        <a href="4-PineGreen.html">
+                        <img class="img-fluid" src="AJ-4-Pine Green-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 4: Pine Green</p>
+                    </div>
+
+                    <div class="a-2 col-sm-4">
+                        <a href="7-BlackOlive.html">
+                        <img class="img-fluid" src="AJ-7-Black Olive-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 7: Black Olive</p>
+                    </div>
+
+                    <div class="a-2 col-sm-4">
+                        <a href="6-CoolGrey.html">
+                        <img class="img-fluid" src="AJ-6-Cool grey-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 6: Cool Grey</p>
+                    </div>
+
+                    <div class="a-2 col-sm-4">
+                        <a href="7-Cardinals.html">
+                        <img class="img-fluid" src="AJ-7-Cardinals-23.jpg" alt="">
+                        </a>
+                        <p style="font-style:italic ; font-weight:bold">Air Jordan 7: Cardinals</p>
+                    
+                    </div>
+
+                </div>
+            </div>
+        
+    
+    
+   
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+
+<section class="">
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #2e343a;">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: CTA -->
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span style="margin-right: 8px"class="me-3">Register for free</span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+           <a href="signUp.html">Sign up!</a> 
+          </button>
+        </p>
+      </section>
+      <!-- Section: CTA -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://shoeshop.com/">shoeshop.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+
+</html>
